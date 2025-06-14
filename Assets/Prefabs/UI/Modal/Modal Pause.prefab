@@ -439,10 +439,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pause
+  m_text: "\u041F\u0430\u0443\u0437\u0430"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -518,11 +518,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
       propertyPath: m_text
-      value: Return to Game
+      value: "\u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043A \u0438\u0433\u0440\u0435"
       objectReference: {fileID: 0}
+    - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
     - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
       propertyPath: m_fontStyle
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2959248339805002297, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
       propertyPath: m_Pivot.x
@@ -651,11 +663,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
       propertyPath: m_text
-      value: Restart
+      value: "\u0417\u0430\u043D\u043E\u0432\u043E"
       objectReference: {fileID: 0}
+    - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
     - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
       propertyPath: m_fontStyle
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2959248339805002297, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
       propertyPath: m_Pivot.x
@@ -788,11 +812,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
       propertyPath: m_text
-      value: Retun to Title
+      value: "\u041C\u0435\u043D\u044E"
       objectReference: {fileID: 0}
+    - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
     - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
       propertyPath: m_fontStyle
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    - target: {fileID: 1164718939915022956, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2959248339805002297, guid: b9ad73d3db3168740aa0d8ecc2d3cfa7, type: 3}
       propertyPath: m_Pivot.x

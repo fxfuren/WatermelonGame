@@ -1,4 +1,4 @@
-using UseCase.Interfaces;
+﻿using UseCase.Interfaces;
 using Presentation.DTO;
 using Presentation.Interfaces;
 using Presentation.State.Common;
@@ -146,7 +146,12 @@ namespace Presentation.Presenter
 
                 // Check the username here and display the modal if it does not exist.
                 if (string.IsNullOrEmpty(_titleSceneViewStateData.UserName.Value))
-                    HandleInputUserName();
+                {
+                    string randomName = "User" + new System.Random().Next(100, 1000);
+                    _titleSceneViewStateData.UserName.Value = randomName;
+                    await _scoreUseCase.UpdateUserNameAsync(randomName, ct);
+                }
+
             }
             catch (OperationCanceledException)
             {

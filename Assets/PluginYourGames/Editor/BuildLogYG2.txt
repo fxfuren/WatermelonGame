@@ -1,0 +1,3 @@
+Build path: D:/JOB/Orders/BUILDS/WatermelonGame-BUILD
+Build number: 4
+PluginYG version: 2.0031

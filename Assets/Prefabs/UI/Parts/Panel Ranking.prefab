@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3365867165583623567
 RectTransform:
   m_ObjectHideFlags: 0
@@ -95,7 +95,6 @@ MonoBehaviour:
   _textScoreRank2: {fileID: 1425531055787673405}
   _textScoreRank3: {fileID: 8933764516614447451}
   _textCurrentScore: {fileID: 5696455561585408786}
-  _textConfig: {fileID: 11400000, guid: 959e8f48a701cd54c971c25f31a48f8d, type: 2}
 --- !u!114 &3717085540069020373
 MonoBehaviour:
   m_ObjectHideFlags: 0

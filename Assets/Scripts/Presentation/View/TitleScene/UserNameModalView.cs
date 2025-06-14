@@ -27,9 +27,9 @@ namespace Presentation.View.TitleScene
         private Vector3 _buttonPressedScale;
 
         public IObservable<string> OnUserNameSubmit
-            => _buttonSubmit.OnClickAsObservable()
-                .Where(_ => !string.IsNullOrEmpty(_userNameInputField.text))
-                .Select(_ => _userNameInputField.text);
+     => _buttonSubmit.OnClickAsObservable()
+         .Select(_ => GenerateRandomUserName());
+
 
         [Inject]
         public void Construct(IUIAnimator uiAnimator)
@@ -102,5 +102,16 @@ namespace Presentation.View.TitleScene
                 })
                 .AddTo(this);
         }
+
+        private string GenerateRandomUserName()
+        {
+            var random = new System.Random();
+            string name = "User" + random.Next(100, 1000); 
+            if (_userNameInputField != null)
+                _userNameInputField.text = name;
+
+            return name;
+        }
+
     }
 }
